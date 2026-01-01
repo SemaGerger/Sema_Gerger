@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sema Gerger | Portfolio</title>
+  <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+<button id="menuBtn" class="menu-btn">☰</button>
+
+<div class="layout">
+
+
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar" class="sidebar">
+
+    <div class="profile">
+        <img alt="Character Image" class="head" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ1cF9Qau9cfB0TOVuQyfPgWIpArZTz9YX48KvKJ0tUXF9JqBApybJDMi1Qeg2g2QM06dy7O2UfdbZ3eX53L-BCDQuwIEvKmeXikLCCCXra_HeJ-fSTltZ2q4QVtn1SYsQ7dIHsaTH8GvsXqn2bmrjxLzlnteT70sElcrfXnCswV4u9dEkFDHD3O_rfg0/w175-h175/pngwing.com%20(15).png" />
+        
+      <img class="head" src="img/profile.png" alt="">
+      <p class="name">Sema Gerger</p>
+      <p class="meslek">Web Developer</p>
+    </div>
+
+    <div class="projects">
+      <h2>Menu</h2>
+      <a href="#" class="project-btn" data-view="home">Home</a>
+      <a href="#" class="project-btn" data-view="websites">WebSite & UI</a>
+       <a href="#" class="project-btn" data-view="excel">Excel</a>
+       <a href="#" class="project-btn" data-view="powerbi">Power BI</a>
+    </div>
+
+    <div class="social-footer">
+      <a href="https://linkedin.comhttps://www.linkedin.com/in/sema-gerger-5b81321aa/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg">
+      </a>
+      <a href="https://github.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+      </a>
+    </div>
+
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+<section id="view-home" class="view active">
+  <h1>Profile</h1>
+
+  <!-- ABOUT -->
+  <div class="cv-block">
+    <h2>About Me</h2>
+    <p>
+      Web Developer olarak modern, responsive ve kullanıcı odaklı arayüzler geliştiriyorum.
+      HTML, CSS, JavaScript ve React ile projeler üretiyorum.
+      Aynı zamanda Excel ve veri görselleştirme tarafında deneyimliyim.
+    </p>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="cv-block">
+    <h2>Technical Skills</h2>
+
+    <div class="skill">
+      <span>HTML / CSS</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 90%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 80%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>React</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 75%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>Excel / Reporting</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 85%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOOLS -->
+  <div class="cv-block">
+    <h2>Tools & Technologies</h2>
+
+    <div class="tag-list">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Git</span>
+      <span>Excel</span>
+      <span>Power BI</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="cv-block">
+    <h2>Experience</h2>
+
+    <ul class="timeline">
+      <li>
+        <strong>Web Developer</strong>
+        <span>Freelance · 2022 – Present</span>
+        <p>Kurumsal ve bireysel web projeleri, dashboard ve UI geliştirme.</p>
+      </li>
+
+      <li>
+        <strong>Frontend Projects</strong>
+        <span>Personal · 2021 – 2022</span>
+        <p>HTML, CSS, JS ve React tabanlı uygulamalar.</p>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+
+
+    <!-- HOME -->
+    <section id="view-home" class="view">
+      <h1>Welcome</h1>
+      <p>Sol menüden <b>WebSite</b> seçerek projelerimi görebilirsin.</p>
+    </section>
+
+    <!-- WEBSITES -->
+    <section id="view-websites" class="view">
+      <h1>My Websites</h1>
+
+      <div class="site-grid">
+
+        <!-- CARD -->
+        <article class="site-card">
+          <div class="site-frame">
+  <img src="https://r.resimlink.com/V_r-ZO9.png" alt="Barbed website">
+</div>
+
+          <div class="site-body">
+            <h3>HTML • CSS • JS</h3>
+            <p>Saf HTML, CSS ve JavaScript ile geliştirilmiş responsive proje.</p>
+            <a class="site-btn" href="https://semagerger.github.io/BarbedWebSite/" target="_blank">Open</a>
+          </div>
+        </article>
+
+        <article class="site-card">
+        <div class="site-frame">
+  <img src="https://r.resimlink.com/c-gds.png" alt="Eşit İşyeri website">
+</div>
+          <div class="site-body">
+            <h3>React Project 1</h3>
+            <p>React component yapısı ile geliştirilmiş modern web sitesi.</p>
+            <a class="site-btn" href="https://esitisyeri.com/" target="_blank">Open</a>
+          </div>
+        </article>
+
+        <article class="site-card">
+         <div class="site-frame">
+  <img src="https://r.resimlink.com/6nzyvPlbVWK.png" alt="Yeşil İşyeri website">
+</div>
+          <div class="site-body">
+            <h3>React Project 2</h3>
+            <p>İkinci React projem. Farklı tema ve sayfa yapıları içerir.</p>
+            <a class="site-btn" href="https://yesilisyeri.com/" target="_blank">Open</a>
+          </div>
+        </article>
+        <article class="site-card">
+         <div class="site-frame">
+  <img src="https://r.resimlink.com/Hubd0VevWt_N.png" alt="Yeşil İşyeri website">
+</div>
+          <div class="site-body">
+            <h3>React Project 2</h3>
+            <p>TR: Oyun İçin UI tasarımı</p>
+              <p>EN: UI design for game simulation</p>
+           <a class="site-btn disabled" href="#" tabindex="-1">Open</a>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EXCEL -->
+    <section id="view-excel" class="view">
+  <h1>Excel Works</h1>
+
+  <div class="excel-grid">
+
+    <div class="excel-card">
+      <img
+        src="https://r.resimlink.com/xo3rFKkB.png"
+        data-full="https://r.resimlink.com/xo3rFKkB.png"
+        alt="Oran Tablosu">
+      <p>Muhasebesel işlemler için Hazırladığım Oran Tablosu Hazırlama Excel verisi</p>
+    </div>
+
+    <div class="excel-card">
+      <img
+        src="img/excel/excel-2-thumb.jpg"
+        data-full="img/excel/excel-2.jpg"
+        alt="Excel Dashboard 2">
+      <p>HR Report</p>
+    </div>
+
+  </div>
+</section>
+<!-- POWER BI -->
+    <section id="view-powerbi" class="view">
+  <h1>Excel Works</h1>
+
+  <div class="excel-grid">
+
+    <div class="excel-card">
+      <img
+        src="https://r.resimlink.com/Qb5hig.png"
+        data-full="https://r.resimlink.com/Qb5hig.png"
+        alt="Personel Tablosu">
+      <p>Personel verisi için Power bi ile yaptığım personel tablosu</p>
+      <p>HR Report with Power BI</p>
+    </div>
+
+  
+
+     <div class="excel-card">
+      <img
+        src="https://r.resimlink.com/7tUHF25QX_.png"
+        data-full="https://r.resimlink.com/7tUHF25QX_.png"
+        alt="Excel Dashboard 2">
+      <p>Satış verisi için power bi ile yaptığım Satış tablosu</p>
+      <p>Sales Dashboard with Power BI</p>
+    </div>
+
+
+
+    
+  </div>
+</section>
+  </main>
+
+</div>
+<div id="lightbox" class="lightbox">
+  <img id="lightbox-img" src="">
+</div>
+
+
+<script src="js/menu.js" defer></script>
+<script>
+    // Excel image lightbox
+document.addEventListener("click", (e) => {
+  const img = e.target.closest(".excel-card img");
+  if (!img) return;
+
+  const full = img.dataset.full;
+  if (!full) return;
+
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  lightboxImg.src = full;
+  lightbox.classList.add("active");
+});
+
+// Kapatma
+document.getElementById("lightbox")?.addEventListener("click", () => {
+  document.getElementById("lightbox").classList.remove("active");
+  document.getElementById("lightbox-img").src = "";
+});
+
+// ESC ile kapatma
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    document.getElementById("lightbox")?.classList.remove("active");
+  }
+});
+
+</SCRipt>
+
+</body>
+</html>
