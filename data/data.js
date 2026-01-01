@@ -81,9 +81,15 @@ tools: [
       desc: "Ratio table for accounting transactions."
     },
      {
-      thumb: "img/excel/excel-2-thumb.jpg",
-      full: "img/excel/excel-2-thumb.jpg",
-      desc: "Ratio...."
+      thumb: "https://r.resimlink.com/aKYgqL3FRj.png",
+      full: "https://r.resimlink.com/aKYgqL3FRj.png",
+      desc: "Find exchange rate date"
+    }
+    ,
+     {
+      thumb: "https://r.resimlink.com/mn_jfxliO-H.png",
+      full: "https://r.resimlink.com/mn_jfxliO-H.png",
+      desc: "Find country code"
     }
   ],
 
