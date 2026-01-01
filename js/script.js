@@ -1,26 +1,27 @@
+const backPhoto = document.getElementById("back-photo");
+const frontPhoto = document.getElementById("front-photo");
+const frontImage = frontPhoto;
+
 let backLoaded = false;
 let frontLoaded = false;
 
-const backPhoto = document.getElementById('back-photo');
-const frontPhoto = document.getElementById('front-photo');
-const site = document.querySelector('.site');
-
 backPhoto.onload = () => {
     backLoaded = true;
-    checkReady();
+    tryStart();
 };
 
 frontPhoto.onload = () => {
     frontLoaded = true;
-    checkReady();
+    tryStart();
 };
 
-function checkReady() {
+function tryStart() {
     if (backLoaded && frontLoaded) {
-        document.querySelector('.front-photo').remove();
-        site.classList.remove('hidden');
+        // animasyonu başlat
+        frontImage.classList.add("animate");
+
+        // overlay göster
+        document.getElementById("welcome-overlay")
+            .classList.remove("hidden");
     }
 }
-
-// başlangıçta site gizli
-site.classList.add('hidden');

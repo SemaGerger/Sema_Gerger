@@ -1,47 +1,115 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Web sitesi için Backend ve frontend geliştirme alanlarında tecrübelerim vardır.">
-
-    <title>Sema Gerger | Web Developer</title>
-
-    <link rel="icon" type="image/x-icon" href="image/sitePhoto/favicon.ico">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Sema Gerger | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
 
-    <!-- Background container -->
-    <div class="background">
+<button id="menuBtn" class="menu-btn">☰</button>
 
-        <!-- Back image -->
-        <img id="back-photo" src="https://r.resimlink.com/YhO7t.jpg" alt="Background" class="background-img">
+<div class="layout">
 
-        <!-- Front image -->
-        <div class="front-photo">
-            <img id="front-photo" src="https://r.resimlink.com/dQGtOgZNmeJ8.jpg" alt="Neon overlay">
-        </div>
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="profile">
+      <img class="head"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ1cF9Qau9cfB0TOVuQyfPgWIpArZTz9YX48KvKJ0tUXF9JqBApybJDMi1Qeg2g2QM06dy7O2UfdbZ3eX53L-BCDQuwIEvKmeXikLCCCXra_HeJ-fSTltZ2q4QVtn1SYsQ7dIHsaTH8GvsXqn2bmrjxLzlnteT70sElcrfXnCswV4u9dEkFDHD3O_rfg0/w175-h175/pngwing.com%20(15).png"
+        alt="Profile">
+      <p class="name" id="profileName"></p>
+      <p class="meslek" id="profileTitle"></p>
     </div>
 
-    <div class="overlay hidden" id="welcome-overlay">
-        <div class="overlay-content">
-            <h1>Web Siteme Hoşgeldiniz</h1>
-            <button id="enter-btn">Devam Et</button>
-        </div>
+    <div class="projects">
+      <a href="#" class="project-btn" data-view="home">
+        <span class="icon">🏠</span><span>Home</span>
+      </a>
+      <a href="#" class="project-btn" data-view="websites">
+        <span class="icon">🌐</span><span>WebSite & UI</span>
+      </a>
+      <a href="#" class="project-btn" data-view="excel">
+        <span class="icon">📊</span><span>Excel</span>
+      </a>
+      <a href="#" class="project-btn" data-view="powerbi">
+        <span class="icon">📈</span><span>Power BI</span>
+      </a>
     </div>
 
-
-    <!-- Site content -->
-    <div class="site hidden">
-
+    <div class="social-footer">
+      <a href="https://www.linkedin.com/in/sema-gerger-5b81321aa/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg">
+      </a>
+      <a href="https://github.com/SemaGerger" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
+      </a>
+      <a href="https://www.instagram.com/semoist/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+      </a>
     </div>
+  </aside>
 
-    <script src="script.js"></script>
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- HOME -->
+   <section id="view-home" class="view active">
+  <h1>Profile</h1>
+
+  <div class="cv-block">
+    <h2>About Me</h2>
+    <p id="aboutText"></p>
+  </div>
+
+  <div class="cv-block">
+    <h2>Technical Skills</h2>
+    <div id="skillList"></div>
+  </div>
+
+  <div class="cv-block">
+    <h2>Tools & Technologies</h2>
+    <div id="toolList" class="tag-list"></div>
+  </div>
+
+  <div class="cv-block">
+    <h2>Experience</h2>
+    <ul id="experienceList" class="timeline"></ul>
+  </div>
+</section>
+
+
+    <!-- WEBSITES -->
+    <section id="view-websites" class="view">
+      <h1>My Websites</h1>
+      <div id="websiteGrid" class="site-grid"></div>
+    </section>
+
+    <!-- EXCEL -->
+    <section id="view-excel" class="view">
+      <h1>Excel Works</h1>
+      <div id="excelGrid" class="excel-grid"></div>
+    </section>
+
+    <!-- POWER BI -->
+    <section id="view-powerbi" class="view">
+      <h1>Power BI</h1>
+      <div id="powerbiGrid" class="excel-grid"></div>
+    </section>
+
+  </main>
+</div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+  <img id="lightbox-img">
+</div>
+
+<!-- SCRIPTS -->
+<script src="data/data.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/home-data.js"></script>
+
 </body>
-
 </html>
