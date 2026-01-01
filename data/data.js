@@ -5,10 +5,9 @@ const DATA = {
     name: "Sema Gerger",
     title: "Web Developer",
     about: `
-      Web Developer olarak modern, responsive ve kullanıcı odaklı
-      arayüzler geliştiriyorum. HTML, CSS, JavaScript ve React ile
-      projeler üretiyorum. Excel ve veri görselleştirme tarafında
-      deneyimliyim.
+      As a Web Developer, I develop modern, responsive, and user-focused interfaces. 
+      I create projects using HTML, CSS, JavaScript, and React. 
+      I am currently improving my skills in Excel and data visualization..
     `
   },
 
@@ -23,12 +22,12 @@ const DATA = {
     {
       title: "Web Developer",
       period: "Freelance · 2022 – Present",
-      desc: "Kurumsal ve bireysel web projeleri, dashboard ve UI geliştirme."
+      desc: "Corporate and individual web projects, dashboard and UI development."
     },
     {
       title: "Frontend Projects",
-      period: "Personal · 2021 – 2022",
-      desc: "HTML, CSS, JS ve React tabanlı uygulamalar."
+      period: "Personnal · 2021 – 2022",
+      desc: "HTML, CSS, JS, and React-based applications."
     }
   ],
 
