@@ -132,8 +132,8 @@ tools: [
       desc: "Sales Dashboard Page 2"
     },
     {
-      thumb: "https://r.resimlink.com/LaREg_h37TlS.png",
-      full: "https://r.resimlink.com/LaREg_h37TlS.png",
+      thumb: "https://r.resimlink.com/G5k6weVam.png",
+      full: "https://r.resimlink.com/G5k6weVam.png",
       desc: "Personnel Analize Dashboard"
     }
   ]
