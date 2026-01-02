@@ -107,6 +107,11 @@ tools: [
       thumb: "https://r.resimlink.com/PzI71uZwX2t.png",
       full: "https://r.resimlink.com/PzI71uZwX2t.png",
       desc: "Find tax code easily"
+    },
+     {
+      thumb: "https://r.resimlink.com/yob8kUIiPc.jpg",
+      full: "https://r.resimlink.com/yob8kUIiPc.jpg",
+      desc: "For distinguishing between 'Commercial' and 'Passenger' vehicles."
     }
   ],
 
