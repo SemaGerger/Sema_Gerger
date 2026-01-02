@@ -25,12 +25,12 @@ const DATA = {
       desc: "Corporate and individual web projects and UI development."
     },
     {
-      title: "Web Site Projects",
+      title: "Data Analyze",
       period: "Freelance · 2025 – Present",
       desc: "Power BI"
     },
     {
-      title: "Web Site Projects",
+      title: "Web Site",
       period: "Freelance · 2022 – 2023",
       desc: "HTML, CSS, JS, design"
     },
