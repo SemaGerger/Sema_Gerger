@@ -15,7 +15,7 @@ const DATA = {
     { name: "HTML / CSS", level: 90 },
     { name: "JavaScript", level: 80 },
     { name: "React", level: 75 },
-    { name: "Reporting", level: 85 }
+    { name: "Reporting", level: 50 }
   ],
 
    experience: [
