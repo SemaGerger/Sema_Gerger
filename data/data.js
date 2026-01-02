@@ -20,15 +20,21 @@ const DATA = {
 
    experience: [
     {
-      title: "Web Developer",
-      period: "Freelance · 2022 – Present",
-      desc: "Corporate and individual web projects, dashboard and UI development."
+      title: "Website, UI tasarım",
+      period: "Freelance · 2023 – Present",
+      desc: "Corporate and individual web projects and UI development."
     },
     {
-      title: "Frontend Projects",
-      period: "Personnal · 2021 – 2022",
-      desc: "HTML, CSS, JS, and React-based applications."
-    }
+      title: "Web Site Projects",
+      period: "Freelance · 2025 – Present",
+      desc: "Power BI"
+    },
+    {
+      title: "Web Site Projects",
+      period: "Freelance · 2022 – 2023",
+      desc: "HTML, CSS, JS, design"
+    },
+    
   ],
 
 tools: [
@@ -36,14 +42,14 @@ tools: [
     "CSS3",
     "JavaScript",
     "React",
-    "Git",
     "Excel",
-    "Power BI"
+    "Power BI",
+    "Photoshop"
   ],
   websites: [
     {
       title: "HTML • CSS • JS",
-      desc: "A responsive project developed using HTML, CSS, and JavaScript",
+      desc: "A responsive project developed using HTML, CSS, and Vanilla JS",
       image: "https://r.resimlink.com/V_r-ZO9.png",
       url: "https://semagerger.github.io/BarbedWebSite/",
       disabled: false
@@ -69,6 +75,13 @@ tools: [
       image: "https://r.resimlink.com/Hubd0VevWt_N.png",
       url: "#",
       disabled: true
+    },
+    {
+      title: "Laravel Project",
+      desc: "a site for students exam",
+      image: "https://r.resimlink.com/-q6b1.png",
+      url: "#",
+      disabled: true
     }
   ],
 
@@ -82,13 +95,18 @@ tools: [
      {
       thumb: "https://r.resimlink.com/aKYgqL3FRj.png",
       full: "https://r.resimlink.com/aKYgqL3FRj.png",
-      desc: "Find exchange rate date"
+      desc: "Find exchange rate date easily"
     }
     ,
      {
       thumb: "https://r.resimlink.com/mn_jfxliO-H.png",
       full: "https://r.resimlink.com/mn_jfxliO-H.png",
-      desc: "Find country code"
+      desc: "Find country code easily"
+    },
+     {
+      thumb: "https://r.resimlink.com/PzI71uZwX2t.png",
+      full: "https://r.resimlink.com/PzI71uZwX2t.png",
+      desc: "Find tax code easily"
     }
   ],
 
@@ -102,6 +120,11 @@ tools: [
       thumb: "https://r.resimlink.com/7tUHF25QX_.png",
       full: "https://r.resimlink.com/7tUHF25QX_.png",
       desc: "Sales Dashboard"
+    },
+    {
+      thumb: "https://r.resimlink.com/GiakC.png",
+      full: "https://r.resimlink.com/GiakC.png",
+      desc: "Sales Dashboard Page 2"
     },
     {
       thumb: "https://r.resimlink.com/LaREg_h37TlS.png",
